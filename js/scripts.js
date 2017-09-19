@@ -12,8 +12,9 @@ $(document).ready(function() {
         sentenceArray.push(sentenceInput.charAt(index));
       }
     }
+    $("#stringInput").hide();
 
-    alert(sentenceArray);
+    $("#output").text(sentenceArray.join(" "));
 
 
   event.preventDefault();
